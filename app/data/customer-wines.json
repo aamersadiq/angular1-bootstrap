@@ -1,0 +1,82 @@
+{
+	"wines": [
+		{
+			"name": "Two Fathoms Currency Creek Shiraz",
+			"wineType": "Red",
+			"region": "North",
+			"drinkUntil" : 2015
+		},
+		{
+			"name": "Saltram Winemaker's Reserve Barossa Shiraz",
+			"wineType": "Red",
+			"region": "South",
+			"drinkUntil" : 2015
+		},
+		{
+			"name": "Hardys Cellar Collection Sauvignon Blanc",
+			"wineType": "White",
+			"region": "North",
+			"drinkUntil" : 2016
+		},
+		{
+			"name": "Franklin Tate Estates Miamup Vineyard Grey Label Chardonnay",
+			"wineType": "White",
+			"region": "West",
+			"drinkUntil" : 2016
+		},
+		{
+			"name": "Banrock Station Winemaker's Release Cabernet Sauvignon ",
+			"wineType": "Red",
+			"region": "South",
+			"drinkUntil" : 2017
+		},
+		{
+			"name": "Tim Adams Foxlee Single Vineyard Riesling",
+			"wineType": "White",
+			"region": "East",
+			"drinkUntil" : 2017
+		},
+		{
+			"name": "Chateau Tanunda Reserve Cabernet Sauvignon",
+			"wineType": "Red",
+			"region": "South",
+			"drinkUntil" : 2018
+		},
+		{
+			"name": "Dorrien Estate Bin 10 Shiraz ",
+			"wineType": "Red",
+			"region": "West",
+			"drinkUntil" : 2019
+		},
+		{
+			"name": "La Tour Charlemagne Medoc Aoc Cabernet Sauvignon ",
+			"wineType": "Red",
+			"region": "North",
+			"drinkUntil" : 2019
+		},
+		{
+			"name": "Hawkesbridge Marlborough Pinot Gris",
+			"wineType": "White",
+			"region": "West",
+			"drinkUntil" : 2020
+		},
+		{
+			"name": "Abbey View High Altar Margaret River Sauvignon Blanc Semillon",
+			"wineType": "White",
+			"region": "East",
+			"drinkUntil" : 2022
+		},
+		{
+			"name": "Domaine Fontval Rose",
+			"wineType": "Red",
+			"region": "North",
+			"drinkUntil" : 2023
+		},
+		{
+			"name": "Rothbury Estate Vintage Bell Moscato",
+			"wineType": "White",
+			"region": "South",
+			"drinkUntil" : 2025
+		}
+	]
+}

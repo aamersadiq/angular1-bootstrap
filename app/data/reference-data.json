@@ -1,0 +1,4 @@
+{
+	"WineTypes": ["Red", "White"],
+	"Regions": ["North", "South", "East", "West"]
+}

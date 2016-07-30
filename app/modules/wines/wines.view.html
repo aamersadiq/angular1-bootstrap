@@ -1,0 +1,51 @@
+<section class="wines">
+    <div class="row">
+      <div class="col-sm-4 wines__title">
+        <h3 class="wines__title-text">All Wines</h3>
+      </div>
+      <div class="col-sm-4 wines__balance">
+        <p class="wines__title-text">Currently Displaying:</p>
+        <h4>{{ vm.recordsLimit }}</h4>
+      </div>
+      <div class="col-sm-4 wines__balance">
+        <p class="wines__title-text">Total Wines:</p>
+        <h4>{{ vm.wines.length }}</h4>
+      </div>
+    </div>
+    <div class="wines__search">
+      <div class="row">
+        <form class="form-inline col-xs-12 col-sm-6" ng-submit="vm.searchDescription()">
+          <!--<label class="form-label" for="search">Search for description</label>-->
+          <div class="input-group">
+            <input ng-model="vm.searchArg" type="text" class="form-control" placeholder="Search...">
+            <span class="input-group-btn">
+              <button class="btn btn-primary" type="submit">Search</button>
+            </span>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="wines__content">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Region</th>
+            <th>Drink Unitl</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="wine in vm.wines | limitTo: vm.recordsLimit as results">
+            <td>{{ wine.name }}</td>
+            <td>{{ wine.wineType }}</td>
+            <td>{{ wine.region }}</td>
+            <td>{{ wine.drinkUntil }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="wines__search">
+      <button ng-disabled="vm.wines.length === vm.recordsLimit" ng-click="vm.recordsLimit = vm.recordsLimit + 5" type="button" class="btn btn-primary btn-block">Load more...</button>
+    </div>
+</section>
